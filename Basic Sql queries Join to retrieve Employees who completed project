@@ -1,4 +1,5 @@
 SELECT employees.name-- 
 FROM employees
 JOIN projects ON employees.project_id = projects.id
-WHERE projects.status = 'Completed';
+WHERE projects.status = 'Completed'
+Order by Project_id ;
